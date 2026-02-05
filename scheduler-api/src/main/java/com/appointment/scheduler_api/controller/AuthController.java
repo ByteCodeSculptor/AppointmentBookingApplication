@@ -15,7 +15,7 @@ import com.appointment.scheduler_api.service.AuthService;
 
 @RestController
 @RequestMapping("/api/auth")
-@CrossOrigin(origins = "*") // Allow React to connect
+//@CrossOrigin(origins = "*") // Allow React to connect
 public class AuthController {
 
     @Autowired
